@@ -1,0 +1,18 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "Sample Node App",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app.js"
+  },
+  "author": "Sidney Shafer",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

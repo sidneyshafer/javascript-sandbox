@@ -50,12 +50,11 @@ This section contains a detailed breakdown of JavaScript variables and data type
 
 |    | Section Topic     | Overview | Programming Files | 
 | -- |-----------------  | -------- |------------------ |
-| 01 | Using the Console | JavaScript comments, keyboard shortcuts, and logging to the console | [01-Using the Console](/src/01-Variables%20and%20Data%20Types/01-Using%20the%20Console) |
-
-> [!NOTE]
-> All programming files for this section can be found in [01-Using the Console](/src/01-Variables%20and%20Data%20Types/01-Using%20the%20Console)
+| 01 | Using the Console | JavaScript comments, keyboard shortcuts, and logging to the console | :link: [01-Using the Console](/src/01-Variables%20and%20Data%20Types/01-Using%20the%20Console) |
 
 ## Using the Console
+> [!NOTE]
+> All programming files for this section can be found in [01-Using the Console](/src/01-Variables%20and%20Data%20Types/01-Using%20the%20Console)
 
 ### JavaScript Comments
 ```javascript
@@ -101,7 +100,7 @@ Comment
     * Each cursor acts independently, allowing you to edit text in multiple locations simultaneously.
 
 ### Logging to the Console
-
+---
 **Basic Logging**
 ```javascript
 console.log(100);
@@ -110,6 +109,71 @@ console.log("Hello World!");
 * The `console.log()` method is used to print a message or information directly to the browser's console.
 * This method can take any value as parameter (number, string, array, object, etc.) and returns the value of the parameter given.
 * In this case, the number `100` and the string `Hello World!` will print to the console (on separate lines).
+---
+
+**Declaring and Logging Variables**
+```javascript
+const word = "Apple";
+console.log(word);
+```
+* Declare a constant variable named `word` and assign it a value of `"Apple"`.
+* Logs the value of `word` to the console with the statement `console.log(word)`.
+* Output would be the value `Apple`.
+---
+
+**Logging Multiple Values**
+```javascript
+console.log(20, 'Hey', true);
+```
+* Logs multiple values in a single `console.log` statement.
+---
+
+**Error and Warning Logging**
+```javascript
+console.error('Alert');
+console.warn('Warning');
+```
+* `console.error`: Logs an error message styled in red.
+* `console.warn`: Logs a warning message styled in yellow.
+---
+
+**Logging Data in Table Format**
+```javascript
+console.table({firstName: 'Sidney', email: 'example@gmail.com'});
+```
+* Displays the provided object as a table in the console.
+* In this case, a table with two columns (`firstName` and `email`) and corresponding values.
+
+**Grouping Logs**
+```javascript
+console.group('group');
+console.log('This is a grouped log.');
+console.log('Something is happening...');
+console.groupEnd();
+```
+* Groups related logs together for better organization in the console.
+* Logs between `console.group()` and `console.groupEnd()` are nested under the specified group.
+* In this case, the group is defined as having the name `'group'` in the first `console.group()` statement.
+---
+
+**Styled Console Logging**
+```javascript
+const styles = 'padding: 10px; background-color: white; color: blue;';
+console.log('%cHello World', styles);
+```
+* Logs a styled message using the format specifier `%c` in the string and applying the CSS styles defined in the `styles` variable.
+* **`%c`: Applies CSS style rules to the output string as specified by the second parameter.**
+* A message `"Hello World"` will output in the console with the specified styles.
+
+> [!NOTE]
+> For more information about console format specifiers, check out this [article](https://developer.chrome.com/docs/devtools/console/format-style) published by the Chrome DevTools.
+
+---
 
 > [!TIP]
-> Check out this [excellent article](https://www.geeksforgeeks.org/javascript-console-log-method/) for more information about logging to the console.
+> Check out this [excellent article](https://www.geeksforgeeks.org/javascript-console-log-method/) for more information about general logging to the console.
+
+> [!NOTE]
+> All programming files for this section can be found in [01-Using the Console](/src/01-Variables%20and%20Data%20Types/01-Using%20the%20Console)
+
+<kbd><br>[Back to Top](#table-of-contents)<br></kbd>

@@ -48,7 +48,7 @@ The `index.html` file has this general structure:
 
 This section contains a detailed breakdown of [JavaScript Variables and Data Types](/src/01-Variables%20and%20Data%20Types). Navigate to more specific sub-sections:
 
-|    | Section Topic     | Overview | Programming Files | 
+|    | Section Topic     | Overview | Files | 
 | -- |-----------------  | -------- |------------------ |
 | 01 | Using the Console | JavaScript comments, keyboard shortcuts, and logging to the console | [:link::file_folder:](/src/01-Variables%20and%20Data%20Types/01-Using%20the%20Console) |
 | 02 | Variables and Constants | Declaring and assigning variables with var, let, and const | [:link::file_folder:](/src/01-Variables%20and%20Data%20Types/02-Variables%20and%20Constants) |

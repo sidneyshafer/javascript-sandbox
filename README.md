@@ -50,7 +50,10 @@ This section contains a detailed breakdown of JavaScript variables and data type
 
 |    | Section Topic     | Overview | Programming Files | 
 | -- |-----------------  | -------- |------------------ |
-| 01 | Using the Console | JavaScript comments, keyboard shortcuts, and logging to the console | **[01-Using the Console](/src/01-Variables%20and%20Data%20Types/01-Using%20the%20Console)** |
+| 01 | Using the Console | JavaScript comments, keyboard shortcuts, and logging to the console | [01-Using the Console](/src/01-Variables%20and%20Data%20Types/01-Using%20the%20Console) |
+
+> [!NOTE]
+> All programming files for this section can be found in [01-Using the Console](/src/01-Variables%20and%20Data%20Types/01-Using%20the%20Console)
 
 ### Using the Console
 
@@ -110,6 +113,3 @@ console.log("Hello World!");
 
 > [!TIP]
 > Check out this [excellent article](https://www.geeksforgeeks.org/javascript-console-log-method/) for more information about logging to the console.
-
-> [!NOTE]
-> All programming files for this section can be found in [01-Using the Console](/src/01-Variables%20and%20Data%20Types/01-Using%20the%20Console)

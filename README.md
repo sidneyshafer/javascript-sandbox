@@ -41,7 +41,7 @@ The `index.html` file has this general structure:
 </html>
 ```
 
-> [!NOTE]
+> [!TIP]
 > Check out this excellent [sandbox](https://github.com/sidneyshafer/html-sandbox) for more information on HTML.
 
 ## Variables and Data Types

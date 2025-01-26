@@ -1,4 +1,4 @@
-## [Using the Console](/src/01-Variables%20and%20Data%20Types/01-Using%20the%20Console)
+## Using the Console
 * [JavaScript Comments](#javascript-comments)
 * [Keyboard Shortcuts](#keyboard-shortcuts)
 * [Logging to the Console](#logging-to-the-console)

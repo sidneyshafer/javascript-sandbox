@@ -55,9 +55,9 @@ This section contains a detailed breakdown of JavaScript variables and data type
 > [!NOTE]
 > All programming files for this section can be found in [01-Using the Console](/src/01-Variables%20and%20Data%20Types/01-Using%20the%20Console)
 
-### Using the Console
+## Using the Console
 
-#### JavaScript Comments
+### JavaScript Comments
 ```javascript
 // Single line comment
 ```
@@ -71,7 +71,7 @@ Comment
 ```
 * `\\` will create a multi-line comment of textual information.
 
-#### Keyboard Shortcuts
+### Keyboard Shortcuts
 
 1. **Shift + Up/Down/Right/Left Arrow - Highlight Code**
     * Holding the `Shift` key while pressing an arrow key allows you to select text incrementally.
@@ -100,7 +100,7 @@ Comment
     * Creates multiple cursors at the clicked positions.
     * Each cursor acts independently, allowing you to edit text in multiple locations simultaneously.
 
-#### Logging to the Console
+### Logging to the Console
 
 **Basic Logging**
 ```javascript

@@ -1,6 +1,6 @@
 # JavaScript Sandbox
 
->Code snippets for learning the basics of JavaScript.
+>Programming examples with code breakdowns for learning the basics of JavaScript.
 
 ## Table of Contents
 * [Project Structure Overview](#project-structure-overview)
@@ -46,13 +46,14 @@ The `index.html` file has this general structure:
 
 ## Variables and Data Types
 
-This section contains a detailed breakdown of JavaScript variables and data types. Navigate to more specific sub-sections:
+This section contains a detailed breakdown of [JavaScript Variables and Data Types](/src/01-Variables%20and%20Data%20Types). Navigate to more specific sub-sections:
 
 |    | Section Topic     | Overview | Programming Files | 
 | -- |-----------------  | -------- |------------------ |
-| 01 | Using the Console | JavaScript comments, keyboard shortcuts, and logging to the console | :link: [01-Using the Console](/src/01-Variables%20and%20Data%20Types/01-Using%20the%20Console) |
+| 01 | Using the Console | JavaScript comments, keyboard shortcuts, and logging to the console | [:link::file_folder:](/src/01-Variables%20and%20Data%20Types/01-Using%20the%20Console) |
+| 02 | Variables and Constants | Declaring and assigning variables with var, let, and const | [:link::file_folder:](/src/01-Variables%20and%20Data%20Types/02-Variables%20and%20Constants) |
 
-## Using the Console
+## [Using the Console](/src/01-Variables%20and%20Data%20Types/01-Using%20the%20Console)
 > [!NOTE]
 > All programming files for this section can be found in [01-Using the Console](/src/01-Variables%20and%20Data%20Types/01-Using%20the%20Console)
 
@@ -173,7 +174,4 @@ console.log('%cHello World', styles);
 > [!TIP]
 > Check out this [excellent article](https://www.geeksforgeeks.org/javascript-console-log-method/) for more information about general logging to the console.
 
-> [!NOTE]
-> All programming files for this section can be found in [01-Using the Console](/src/01-Variables%20and%20Data%20Types/01-Using%20the%20Console)
-
-<kbd><br>[Back to Top](#table-of-contents)<br></kbd>
+<kbd> <br> [Back to Top](#table-of-contents) <br> </kbd>
